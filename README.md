@@ -25,7 +25,6 @@ Python:
 The data is made from us. 
 
 Colletion Process: 
-
 * First: Hook up data collecting loops from both groups of leader drones and data coming from the electrode cap/headset.Note: Should be displayed in a timeseries plot with those 4 columns being linked.
 
 * Second: The data will update in increment loops of seconds. The timestamps will not come directly in 1 second intervals due to latency in the collection.
@@ -34,7 +33,7 @@ Colletion Process:
     
 * Fourth: Going through a set of 50 commands, while repeating each command 100 times.
     
-Note:We can improve the type of data we get by running this process with multiple groups of people.
+Note: We can improve the type of data we get by running this process with multiple groups of people.
 
 
 ## Robots
@@ -42,12 +41,11 @@ The robots will be simple light drones with 3 motors and 2 servos that will coll
 The goal is to have them connected to each other through IOT and have leader drones that will send all the primary data. 
 
 ## Materials
- To be Updated ... 
+To be Updated ... 
 
 ## Problems
 There are some major problems that come with this project. With some values there
 
 
 ## Credits
-
 To be updated as I'm sure I will recieve help along the way. Thanks in advance!
