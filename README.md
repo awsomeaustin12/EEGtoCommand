@@ -25,10 +25,14 @@ Python:
 The data is made from us. 
 
 Colletion Process: 
-    * First: Hook up data collecting loops from both groups of leader drones and data coming from the electrode cap/headset.Note: Should be displayed in a timeseries plot with those 4 columns being linked.
-    * Second: The data will update in increment loops of seconds. The timestamps will not come directly in 1 second intervals due to latency in the collection.
-    * Third: Two people will be part of this process. One thinking of specific commands in given time intervals. And the other will be controlling the robots manually.
-    * Fourth: Going through a set of 50 commands, while repeating each command 100 times.
+
+* First: Hook up data collecting loops from both groups of leader drones and data coming from the electrode cap/headset.Note: Should be displayed in a timeseries plot with those 4 columns being linked.
+
+* Second: The data will update in increment loops of seconds. The timestamps will not come directly in 1 second intervals due to latency in the collection.
+
+* Third: Two people will be part of this process. One thinking of specific commands in given time intervals. And the other will be controlling the robots manually.
+    
+* Fourth: Going through a set of 50 commands, while repeating each command 100 times.
     
 Note:We can improve the type of data we get by running this process with multiple groups of people.
 
