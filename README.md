@@ -8,16 +8,17 @@ The commands will be linked to a group of drones connected to each other. The en
 
 ## Usage
 This will be first tested with the NeuroSky headset but will optimized for the ELECTRODE CAP SYS., TOUCHPROOF biomedical electrode cap. 
-Link: *(1)BioPAC Electrodes- https://www.biopac.com/product/electrode-cap-sys-touchproof/ 
-      *(2)NeuroSky Headset - http://neurosky.com/biosensors/eeg-sensor/biosensors/
+Link:
+* (1)BioPAC Electrodes- https://www.biopac.com/product/electrode-cap-sys-touchproof/ 
+* (2)NeuroSky Headset - http://neurosky.com/biosensors/eeg-sensor/biosensors/
 
 ## Depenencies
 Python:
-*mne
-*pandas
-*numpy
-*tensorflow
-*matplotlib
+* mne
+* pandas
+* numpy
+* tensorflow
+* matplotlib
 
 
 ##  Data
