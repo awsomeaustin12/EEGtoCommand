@@ -27,4 +27,10 @@ picks = mne.pick_types(raw.info,meg=False,eeg=True,eog=False,stim=False,exclude=
 
 raw.plot_psd(area_mode='range', tmax=10.0, picks=picks, average=False)
 
+sampling_rate = 400 #how much to be determined
+# EEGsize1 =   tbd depends on how much data
+# EEGsize2 =   tbd depends on how much data
+# EEGsize3 =   tbd depends on how much data
 
+#we can remove noise using a notch filter
+raw.notch_filter(np.arrange())
