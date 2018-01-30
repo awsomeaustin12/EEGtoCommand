@@ -18,8 +18,8 @@ class DataCollector:
         data_path = "datapathyetTBD"
         raw = mne.io.read_raw_fif(op.join(data_path,'EEG', 'nameTBD', 'nameTBD.fif'))
 
-
-
+        events = mne.find_events(raw,stim_channel=None)
+        epochs = mne.Epochs(raw,event_id=events,tmin=-0.2,tmax=0.5,baseline=(None,0),preload=True)
 
 
     def changeNames(self,indexofChange,newElectode,channel_names):
@@ -37,7 +37,7 @@ class DataCollector:
     def printInfo(self,info):
         print(info)
 
-    def constructEventArray(self,stimChannel,rawFile):
+    def constructEventArrayW_StimChannel(self,stimChannel,rawFile):
         events = mne.find_events(raw=rawFile,stim_channel=stimChannel)
 
     def printNumberEvents(self, events):
