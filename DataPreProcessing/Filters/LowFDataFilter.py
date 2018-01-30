@@ -18,6 +18,8 @@ class DataFilter():
         raw.info['bads'] = ['T4', 'F1']
 
         fmin, fmax = 10,300
+        power_fft = 2048
+
 
 
     def dropElectrodes(self, bad, raw_fname, droppedElectrode):
